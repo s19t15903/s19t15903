@@ -1,0 +1,31 @@
+.cars{
+    background-color: blueviolet;
+    color: burlywood;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    }
+    .carstable{
+          font-size: 20px;
+          margin: 20px;
+    }
+    .truck{
+        text-align: center;
+        background-color: tomato;
+        color: thistle;
+        border: 3px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    .motors{
+        background-color: brown;
+        color: white;
+        border: 1px solid black;
+        margin: 20px;
+        padding: 20px;   
+    }
+    
+    #carscolors {
+        color: cyan;
+    }
