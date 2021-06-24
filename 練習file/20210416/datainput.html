@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="datainputanswer.php" method="POST" autocomplete="on">
+        <fieldset>
+            <legend>個人資料</legend>
+            <label for="name">姓名:</label><br>
+            <input type="text" id="1name" name="name"  placeholder="Jason"  pattern="[A-Za-z]{3}"  autofocus required>
+
+            <label for = "birthday">出生日期:</label>
+            <input type="date" id = "1birthday" name="birthday" required><br>
+
+            <label for="phone">電話號碼:</label><br>
+            <input type="tel" id="1phone" name="phone" placeholder="1234-123-123" pattern="[{0-9}{4}-{0-9}{3}-{0-9}{3}]" required><br>
+            
+            <label for="email" >Email:</label><br>
+            <input type="email" id="1email" name="email" placeholder="Abc@yaoo.com"  required><br>
+            
+            <label for="gender" >性別:</label><br>
+            <input type="radio" id="gender" name="gender" value="男" checked>男
+            <input type="radio" id="gender" name="gender" value="女">女<br>
+        
+            <label for="cars">車輛品牌:</label>
+             <select id="cars" name="cars">
+                <option name="car1" id="cars" value="wira">wira</option>
+                <option name="car2" id="cars" value="lamb">lamb</option>  
+                <option name="car3" id="cars" value="Bmw" selected>Bmw</option>
+                <option name="car4" id="cars" value="Benz">Benz</option> 
+            </select><br>
+            <label for="pinfen">表格設計滿意度:</label><br>
+            <input type="range" id = "vol" name="vol" value="50" min="0" max="100"><br>
+            <input type="checkbox" required>勾選才可通過<br>
+            <input type="submit" formtarget="_blank" name="submit" >
+            <input type="reset">
+        </fieldset>
+    </form>
+</body>
+</html>

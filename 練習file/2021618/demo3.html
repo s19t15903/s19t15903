@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+    .border {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      margin: 6px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Borders</h2>
+        <p>Use a contextual border color to add a color to the border:</p> 
+        <span class="border"></span>
+        <span class="border border-0"></span>
+        <span class="border border-top-0"></span>
+        <span class="border border-right-0"></span>
+        <span class="border border-bottom-0"></span>
+        <span class="border border-left-0"></span>
+        <span class="border border-primary rounded"></span>
+        <span class="border border-secondary border-top-0" >Hello world</span>
+        <span class="border border-success"></span>
+        <span class="border border-danger"></span>
+        <span class="border border-warning"></span>
+        <span class="border border-info"></span>
+        <span class="border border-light"></span>
+        <span class="border border-dark"></span>
+        <span class="border border-white"></span>
+      
+      <div class="clearfix">
+        <span class="float-right border border-primary rounded ">Float left</span>
+        <span class="float-right border border-warning">Float right</span>
+      </div>
+      
+        <div class="mx-auto bg-warning .w-25">Centered</div>
+      
+        <h1>Spacing Utilities</h1>
+        <p>Set the spacing of an element with the {property}{sides}-{breakpoint}-{size} classes. Omit breakpoint if you want the padding or margin to work on all screen sizes.</p>
+        <div class="pt-4 bg-warning">I only have a top padding (1.5rem = 24px)</div>
+        <div class="p-5 bg-success">I have a padding on all sides (3rem = 48px)</div>
+        <div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem = 48px) and a bottom padding (3rem = 48px)</div>
+    </div>
+</body>
+</html>
